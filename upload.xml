@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<movie version="8" width="320" height="315" framerate="24">
+    <frame>
+        <library>
+            <clip id="VideoDisplay" name="VideoDisplay">
+                <frame>
+                    <video id="VideoSurface" width="320" height="240" />
+                    <place id="VideoSurface" name="video" depth="1" />
+                </frame>
+            </clip>
+            <clip id="VideoDisplayMirror" name="VideoDisplayMirror">
+                <frame>
+                    <video id="VideoSurfaceMirror" width="320" height="75" />
+                    <place id="VideoSurfaceMirror" name="videoMirror" depth="1" />
+                </frame>
+            </clip>
+            <clip id="reflectGradi" name="reflectGradi">
+                <frame>
+                    <place id="reflectGrad" name="reflectGrad" depth="2" />
+                </frame>
+            </clip>
+
+        </library>
+    </frame>
+<!--
+    <clip id="ImportCode" import="ImportCode.swf"/>
+    </library>
+    <place id="foobar" name="myfoobar" depth="1" />
+    <call object="ImportCode" method="main"/>
+    </frame>
+-->
+</movie>
+
+
